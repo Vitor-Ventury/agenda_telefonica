@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    background-color: #191919;
+    color: #EDF3FB;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header {
+    border-bottom: 1px solid #343940;
+    padding: 8px;
+    margin-bottom: 24px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header .container img {
+    height: 32px;
+    margin-right: 24px;
+}
+
+.container {
+    max-width: 968px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+form input, form button {
+    margin-bottom: 24px;
+    height: 32px;
+}
+
+form input {
+    background-color: #191919;
+    border: 1px solid #EDF3FB;
+}
+
+form button {
+    cursor: pointer;
+    margin-left: 24px;
+    width: 90px;
+    font-weight: bold;
+    background-color: #316BC8;
+    border: none;
+}
+
+form button:hover {
+    background-color: #1a53af;
+}
+
+table {
+    width: 968px;
+    text-align: center;
+}
+
+thead th {
+    border-bottom: 1px solid #2C8AB8;
+    padding: 8px;
+}
+
+tbody td {
+    border-bottom: 1px solid #343940;
+    padding: 8px;
+}
+
+table img {
+    height: 24px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+tfoot td {
+    background-color: #2C8AB8;
+    font-weight: bold;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    margin-left: 100px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 12px;
+}
